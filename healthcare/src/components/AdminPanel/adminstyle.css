@@ -1,0 +1,118 @@
+
+.adminbox body {
+  font-family: Arial, sans-serif;
+}
+
+.adminbox .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.adminbox {
+  margin: 15px;
+  background-color: rgba(192, 192, 192, 0.7);
+  padding: 1%;
+  border-radius: 3%;
+  
+}
+
+.adminbox h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.adminbox button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+.adminbox button:hover {
+  background-color: #0056b3;
+}
+
+/* Tables */
+.adminbox table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #f2f2f2ed;
+}
+
+.adminbox table,
+.adminbox th,
+.adminbox td {
+  border: 1px solid #ddd;
+}
+
+.adminbox th,
+.adminbox td {
+  padding: 8px;
+  text-align: left;
+}
+
+.adminbox th {
+  background-color: #f2f2f2;
+}
+
+/* Form input and buttons */
+.adminbox input[type="text"] {
+  width: 30%;
+  padding: 10px;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.adminbox button#addCategoryBtn {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.adminbox button.deleteBtn {
+  background-color: #ff0000;
+}
+
+.adminbox button.manage {
+  margin-top: 30px;
+  width: 200px;
+}
+
+.adminbox input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Messages */
+.adminbox p {
+  font-style: italic;
+  color: #888;
+}
+
+/* Error messages */
+.adminbox .error {
+  color: #ff0000;
+}
+
+/* Success messages */
+.adminbox .success {
+  color: #007bff;
+}
+
+.adminbox .longText {
+  max-height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* To make the columns for description and image URL have the same width */
+.adminbox .description {
+  width: 500px;
+}
+

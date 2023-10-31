@@ -1,0 +1,30 @@
+.navbar-inner {
+    background:transparent;
+    align-items: center;
+}
+
+.logoName{
+    margin-left: 13px;
+    font-family: 'Courgette', cursive;
+    color: aliceblue;
+    border-color: black;
+    border-width: 1px;
+}
+
+.logo{
+    margin-bottom: 5px;
+    border-radius: 8px;
+    width: 45px;
+    height: auto;
+}
+
+.navbutton{
+    align-items: center;
+    padding: auto ;
+    margin: 0px 5px;
+}
+
+.navoptions{
+    margin-right: 5%;
+    margin-left: auto;
+}

@@ -1,0 +1,106 @@
+
+
+  .card-container {
+    margin: 6% 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center-align cards within the container */
+  }
+  
+  .card-container .card {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Initially, display three cards per row */
+    box-sizing: border-box;
+    transition: transform 0.2s; /* Add a smooth hover effect */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* On screens with a width less than or equal to 768px, display two cards per row */
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  /* On screens with a width less than or equal to 576px, display one card per row */
+  @media (max-width: 576px) {
+    .card {
+      width: calc(100% - 20px);
+    }
+  }
+  
+  .card-container .card:hover {
+    transform: translateY(-5px); /* Apply a slight lift on hover */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
+  }
+
+  .card-container .card:hover {
+  transform: translateY(-5px); /* Apply a slight lift on hover */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
+}
+
+.card-container .card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto ;
+
+}
+
+.card-container .card-title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card-container .card-description {
+  text-align:left;
+  margin: 10px 0;
+  color: #777;
+}
+
+.card-container .card-text {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-container .form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.card-container .product-quantity label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.card-container .product-quantity input {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-to-cart-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3; /* Darken the button on hover */
+}

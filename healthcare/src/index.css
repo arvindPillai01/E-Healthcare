@@ -1,0 +1,11 @@
+body,html{
+    margin-left:7%;
+    margin-right:7%;
+    margin-bottom:1%;
+    margin-top:1%;
+    background-image: url('../public/vectorbg.jpg'); /* Replace 'path-to-your-image.jpg' with the actual image file path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
